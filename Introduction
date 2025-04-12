@@ -137,3 +137,51 @@ array : args
 
 String[] name,args
 array : name,args
+
+{ opening of main function definition part 
+
+System.out.println("Hello world");
+
+System = class -------> predefined class
+. = dot operator -----> Misc operator 
+out = object ---------> PrintStream class
+println = method -----> PrintStream class 
+
+class System {
+    static PrintStream out;
+}
+
+here out is the static member of System class 
+and object of PrintStream class 
+
+class PrintStream{
+    public void println(String s){
+        .....
+    }
+    public void print(String s){
+        .....
+    }
+    public void println(int i){
+        .....
+    }
+    public void println(double d){
+        .....
+    }
+     |    |
+}
+
+} = closing of main function definition part
+} = closing of class definition part
+
+How to create and run java program : 
+------------------------------------
+1. Word processing tool | Editor | IDE 
+2. Write Program 
+3. You need to compile
+   |-- download jdk
+   
+   https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+
+   |-- compiler ---> javac ---> jdk
+4. output : vs code---> terminal
+                   |--> command prompt

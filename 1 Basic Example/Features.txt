@@ -1,0 +1,159 @@
+Features :
+-----------
+1. Simple
+2. Easy to understand
+3. Portable
+4. Machine Independent
+5. Performance 
+6. Automatic memory management
+   (Garbage collector)
+7. Object oriented programming language
+8. Robust
+    |-- file handling
+    |-- multithreading
+    |-- exception handling 
+    |-- int 4 byte
+9. Secure
+    |-- Explicit pointers are absent
+    |-- concept of friend function is absent 
+    |-- restrict operator overloading 
+10. Distributed in nature
+
+----------------------------------------------------------
+
+Tokens in java : 
+Token is the smallest unit of information
+
+Token includes : 
+    1. Constant = final keyword
+    2. Variable (_ $)
+        a. Local Variable 
+        b. Instance Variable (object variable) = multiple copies 
+        c. Static variable (class variable) = single copy
+    3. Keywords
+        |-- Reserved words
+        |-- 51 = 49 are in use and 2(goto const) are not in use
+    4. Identifiers
+        Constant = Uppercase
+        Variable = Lowercase 
+        Function = Camel Case
+        Class = Pascal case 
+    5. Separators 
+        , = comma 
+        ; = semi colon 
+        {} = curly brackets
+        [] = square brackets 
+        () = Parenthesis
+    6. Operators
+       Operators are the symbols which are used to perform some operations on one or more than one operand(variable + constant). 
+       ex : x + y, x + 5, 7 + 8 etc 
+
+       Types of operators : 
+        1. Assignment operator (=) 
+            int a = 100;
+        2. Arithmetic operator 
+           +    -   *   /(quotient)   %(Remainder)
+       
+           int int int
+            5 / 2 = 2
+
+           int float float
+            5 / 2.0 = 2.5
+
+           float int float
+            5.0 / 2 = 2.5
+
+           float float float
+            5.0 / 2.0 = 2.5 
+
+            (float)5 => 5.0
+        
+        3. Relational operator 
+           <    >   <=  >=  ==(comparision)  !=
+
+        4. Shorthand operator | Compound operator | Arithmetic Assignment operator 
+           +=   -=  *=  /=  %=
+
+           a = a + 5 --------------> a += 5
+           a = a / 5 --------------> a /= 5
+
+        5. Increment | Decrement Operator 
+               ++          -- 
+
+           Increment
+            a. post increment 
+                print(use) ------> increment
+                int a = 10;
+                sop(a++); = 10
+                sop(a); = 11
+
+            b. pre increment   
+                increment ------> print(use)
+                int a = 10;
+                sop(++a); = 11
+                sop(a); = 11
+
+           Decrement
+            a. post decrement 
+                print(use) ------> decrement
+                int a = 10;
+                sop(a--); = 10
+                sop(a); = 9
+
+            b. pre decrement   
+                decrement ------> print(use)
+                int a = 10;
+                sop(--a); = 9 
+                sop(a); = 9
+
+        6. conditional operator (Ternary Operator) ? : 
+    
+           _____________________false_______
+          |                                 |
+          |   ________true____              | 
+          |  |                |             | 
+        (condition) ? expression 1 : expression 2 ;
+           (a > b)  ?       a      :      b       ;
+           (a>b)  ? "a is greater" : "b is greater";  
+
+
+        (condition) ? ((cond) ? exp1 : exp2) : ((cond) ? exp1 : exp2) ;
+        ( a > b ) ? ( a > c ? a : c ) : ( b > c ? b : c );       
+
+    7. Logical operator 
+        Logical AND (&&) 
+        when all conditions are true, then only resultant will be true
+        
+        Logical OR (||)
+        If any one condition is true, then the resultant will be true 
+
+        Logical NOT (!) 
+        Opposite
+
+        P        Q        P&&Q        P||Q 
+        -----------------------------------
+        T        T         T           T  
+        T        F         F           T 
+        F        T         F           T 
+        F        F         F           F 
+
+        P    !P 
+        -------
+        T    F 
+        F    T  
+
+        5>2 && 10<4 = false 
+
+    8. Bitwise operator 
+       Bitwise AND (&)
+       Bitwise OR (|)
+       Bitwise XOR (^)
+       Bitwise Leftshift (<<)
+       Bitwise Rightshift (>>)
+       Bitwise complement (~)
+
+    9. Misc operator 
+        |-- dot operator . 
+        |-- conditional operator (?:)
+        |-- instanceof 
+        |-- new operator

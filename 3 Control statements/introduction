@@ -1,0 +1,64 @@
+Control statement
+-------------------
+The statement or instructions are used to inform the computer to perform the task when program is being executed.
+There are 4 types of control statement : 
+a. Sequential control statement 
+   input ------ process --------- output
+         (Formula Implementation)
+   ex: p,r,t   si=(p*r*t)/100     o/p : si
+
+b. Conditional control statement 
+   (Decision control statement)
+      a. if statement
+      syntax :    
+            if(condition){
+               .....
+               .....
+            }
+      b. if else statement 
+            if(condition){
+               ......
+            }else{
+               ......
+            }
+
+      c. nested if else statement
+      syntax : 
+         i. if(condition){
+               ....
+            }else{
+               if(condition){
+                  ....
+               }else{
+                  
+               }
+            }
+
+         ii. if(condition){
+               if(condition){
+                  ....
+               }else{
+                  
+               }
+            }else{
+               ....
+            }
+
+         iii. if(condition){
+                  if(condition){
+                  ....
+                  }else{
+                     
+                  }
+               }else{
+                  if(condition){
+                  ....
+                  }else{
+                     
+                  }
+               }
+
+      d. else if ladder 
+      
+c. Switch control statement
+d. Looping control statement

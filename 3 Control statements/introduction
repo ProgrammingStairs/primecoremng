@@ -59,6 +59,112 @@ b. Conditional control statement
                }
 
       d. else if ladder 
+         syntax:
+               if(condition)
+                  .....
+               else if (condition)
+                  .....
+               else if (condition)
+                  .....
+               else  
+                  .....
+
       
 c. Switch control statement
+   It is mainly  used for menu based programming.
+   It works on the concept of cases.
+   Duplicate cases not allowed.
+   syntax :
+
+         switch(constant | variable | expression){
+            case 1 : ........
+                     break;
+            case '+' : ......
+                     break;
+            case 'a' : ......
+                     break;
+            case 'A' : ......
+                     break;
+            default : .......
+                     break;
+         } 
+
 d. Looping control statement
+   Looping is the process of performing same task or some task in an iterative manner untill certain condition is satisfied. 
+
+   There are two types of loops : 
+      a. Entry control loop 
+      b. Exit control loop 
+
+   a. Entry control loop 
+      Where condition is checked at the time of entry.
+      For loop and while loop comes under this category.
+      
+   b. Exit control loop
+      Where condition is checked at the time of exit.
+      do while loop comes under this category.
+      
+
+   For loop : When we already know in advance that how many times we have to exxecute our loop, then in that case we use for loop. 
+   ex: table of a number 
+
+   While loop : When we do not know in advance that how many times we have to execute our loop, then in that case we use while loop.
+   ex : reversing a number 
+
+   do while loop : Whether condition is true or false, do while loop may executes atleast once.  
+
+   for each loop | advanced loop
+
+   Syntax for for loop : 
+
+                  step 1         step 2     step 3
+         for ( initialization ; condition ; inc|dec )
+         {
+            ...........
+            ...........
+         }
+
+   syntax for while loop : 
+
+         initialization;
+
+         while(condition){
+             .........
+             .........
+             inc | dec;
+         }
+
+   syntax for do while loop : 
+
+         initialization;
+
+         do{
+            .........
+            .........
+            inc | dec;
+         }while(condition);
+         
+---------------------------------------------------------------------
+ASCII VALUE 
+-----------
+American Standard Code for Information Interchannge 
+
+A = 65      a = 97     0 = 48
+B = 66      b = 98     1 = 49
+|   |       |   |      |   |
+Z = 90      z = 122    9 = 57
+
+ch = sc.next().charAt(0);
+
+if(ch>='A' && ch<='Z')
+   uppercase
+else {
+   if(ch>=97 && ch<=122)
+      lowercase
+   else{
+      if(ch>=48 && ch<=57)
+         digit
+      else
+         invalid
+   }
+}

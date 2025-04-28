@@ -1,0 +1,31 @@
+Array
+-----
+1. Array is a non-primitive datatype(reference type).
+2. Array is a collection of Homogenous(same type) elements.
+3. Arrays are dynamic allocated in java.
+4. Array works on the concept of indexing.
+5. Array indexing always starts from zero because it follows number system.
+6. Prerequisite for array allocation is base address.
+7. Array works on continous memory allocation.
+8. Arrays are object in java.
+9. Array can hold primitive as well as object reference.
+10. Type of Array : 
+    a. One Dimensional Array 
+    b. Two Dimensional Array
+        |-- There is a special type of two dimensional array i.e Jagged Array, which can have different columns for each row. 
+    c. Multidimensional array
+
+11. Array elements shares same name but differentiable by there indexing. 
+
+12. Syntax : 
+    i. <datatype> <array name>[] = {element1, element2, ...., element_n}; 
+    ex : int arr[] = {1,2,3,4,5};
+
+    int a;
+    int a,b;
+    int a,b,c,d,e;
+    int a1,a2,a3,...a50;
+    
+    int arr[50];
+
+    arr[0] arr[1] arr[2] .... arr[49]

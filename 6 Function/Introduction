@@ -1,0 +1,75 @@
+
+Function
+--------
+Function is a self contained block of statement. Every function performs some specific task.Functions are of two types : 
+    
+    a. Standard Function | Pre-defined function | Library function | Built-in function | In-built function : Functions whose definition part is already defined. Ex : pow(),sqrt(),abs() etc
+
+    b. User-defined function : Functions whose definition part is designed according to programming needs. Ex : void show(){}, void display(){} etc. 
+
+Advantages of function :  
+1. Function reduces program size
+2. Function reduces redundancy of code 
+3. Function reduces complexity of code 
+4. Debugging would be easier 
+5. We can create n number of functions 
+6. A function can be called n number of times 
+
+Note : 
+    function calling <---------> calling function 
+    function definition <------> called function
+
+Categories of function : 
+a. No argument no return type 
+   
+      |------------------------->
+   function                   called  
+   calling                    function
+      <-------------------------|
+
+    addition();                 void addition()  
+    (no argument)               {
+                                     .....
+                                     .....
+                                }
+
+b. No argument with return type 
+    int | double res = addition();                int | double addition()  
+    (no argument)                                 {
+                                                     .....
+                                                     return statement;
+                                                  }
+
+c. With argument no return type 
+    addition(a,b);                void addition(int a,int b)  
+    (with argument)               {
+                                     .....
+                                     .....
+                                  }
+
+d. With argument with return type 
+    int | double res = addition(a,b);             int | double addition(int a,int b)  
+    (no argument)                                 {
+                                                     .....
+                                                     return statement;
+                                                  }
+
+---------------------------------------------------------------------
+
+class Demo{
+    <access_modifier> <return_type>  <function_name> ()
+    {
+        .....
+        .....
+    }
+
+    public | private | protected | default int addition(){
+        ....
+        ....
+    }
+
+    public static void main(String[] args){
+        Demo obj = new Demo();
+        obj.addition();
+    }
+}

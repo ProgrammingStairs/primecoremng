@@ -1,0 +1,19 @@
+Static Keyword : 
+static keyword can be used with : 
+1. static variable
+   |-- if we put static keyword with any variable, then that variable is considered as class variable. For accessing that variable we do not need to create class object, that variable is directly accessed by class name. 
+   |-- static variable is also considered as class variable
+   |-- static variable gets memory only once
+   |-- only single copy of static variable is going to be gennerated
+
+2. static method
+    |-- If we make any method as a static, then in that case, we do not need class object to call that static method, static method is directly called by class name.
+    |-- static methods can be overloaded but cannot be overriden.
+    |-- static methods are considered as class method 
+
+3. static block
+    |-- static block is a block which is executed before main method. 
+    |-- static block executes only once when a class is loaded in a memory.
+    
+4. static class (static nested class)
+

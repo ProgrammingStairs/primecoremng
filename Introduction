@@ -1,8 +1,51 @@
+
+
 |-- Procedure oriented programming Language
     It is a way of writing a list of instructions for the computer to follow and this instructions are arranged in a group and this groups are known as functions.
 
+    Characteristics : 
+        1. Mainly emphasis is on doing things.
+        2. Large programs are divided into what are known as functions 
+        3. Data revolves around the system 
+        4. Function shares global data 
+        5. Functions can transform data 
+        6. Follows top down approach in program design 
+
 |-- Object oriented programming Language
-    It is a way of modularizing a program which allocates partitioned memory area for both data and functions and using them as a templates and call the copies of such modules on demand.
+    It is a way of modularizing a program which allocates partitioned memory area for both data and functions and using them as a templates and call the copies of such modules on demand. 
+
+    Characteristics : 
+        1. Mainly emphasis is on data rather than procedure 
+        2. Large programs are divided into what are known as objects
+        3. Data is hidden and cannot be accessible from outside world 
+        4. New Data can be added easily when ever required 
+        5. Follows bottom up approach
+
+    OOP'S concept
+        1. Object 
+        2. Class 
+        3. Inheritance
+        4. Polymorphism 
+        5. Encapsulation
+        6. Abstraction
+
+    Object oriented programming language
+        Which follows all oops concept
+        ex : c++,java etc 
+
+    Object based programming language    
+        Which follows all oops concept except inheritance and run time polymorphism
+        ex : ADA
+
+    Fully object oriented programming language 
+        Follows all oops concept  ex : java, c++ etc
+
+    Purely object oriented programming language
+        ex : smalltalk etc
+
+    1. Object : 
+        a. object is a real world entity, which have some physical existence. 
+
 
 |-- Functional programming Language
     In this case, we are going to complete incomplete method with the help of expressions.

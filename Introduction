@@ -44,8 +44,39 @@
         ex : smalltalk etc
 
     1. Object : 
-        a. object is a real world entity, which have some physical existence. 
+        a. object is a real world entity, which have some physical existence.
+        b. every object belongs to some specific class 
+        c. objects may communicate with each other through functions 
+        d. object is an instance of a class
+        e. Object may have state, identity and behaviour.
 
+    2. Class : 
+        a. Class is a userdefined blueprint for creating object
+        b. class is a logical entity
+        c. class provides specifications 
+        d. class contains data members and member functions
+        e. class is a collection of similar type of objects
+
+    3. Inheritance 
+
+    4. Encapsulation : 
+        Wrapping up of data members and member functions into single unit that is in object, is known as Encapsulation. 
+        For achieving encapsulation in more efficient manner, we needs to make data member private and member function public. 
+
+    5. Polymorphism : 
+        Polymorphism is derived from a greek term, where poly means many and morphism means forms, which means more than one form. 
+        Polymorphism can be caterorized as :
+            a. compile time polymorphism or static binding or early binding
+                here we use Method Overloading to represents the concept of compile time polymorphism.
+
+                Method Overloading : 
+                    i. Same name method 
+                    ii. With different no. of arguments or with same no. of arguments but with different datatypes 
+                    iii. lies in same class 
+                    iv. No inherit mechanism is present
+
+            b. run time polymorphism or dynamic binding or late binding
+                here we use Method Overriding first then upcasting concept to achieve the functionality of run time polymorphism 
 
 |-- Functional programming Language
     In this case, we are going to complete incomplete method with the help of expressions.

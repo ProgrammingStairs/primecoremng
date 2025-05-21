@@ -1,0 +1,16 @@
+Interface : 
+----------
+1. Interface is also used to achieve abstraction
+2. Interface is represented by interface keyword 
+3. Interface is used to achieve the functionality of multiple inheritance 
+4. Interface achieves loose coupling 
+5. By default data members inside interface is public static final and member functions are public abstract 
+6. We can make functional interface by putting @FunctionalInterface annotation 
+7. Classes implements interface whereas interface extends interface
+8. From jdk 8, we can also create method with definition part inside interface through default and static keyword 
+9. We can also create anonymous class with the help of inerface 
+
+                interface Payment        interface Video 
+                     |______________________|  |
+                     |                         |
+                class MyClass            class AnotherClass

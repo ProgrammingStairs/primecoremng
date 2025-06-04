@@ -1,0 +1,20 @@
+Thread Synchronization : 
+Synchronization is the process in which multiple threads can share shared resources one by one . Thread Synchronization can be classified as : 
+    a. Mutual Exclusion
+        i. Synchronized block 
+        ii. Synchronized method 
+        iii. static Synchronization
+    b. Inter thread communication (Co-operation of thread)
+        i. wait()
+        ii. notify()
+        iii. notifyAll()
+
+        ---------------------------------
+
+        resource ------->  [ Andrew ]
+                           [ Mathew ] 
+                           [ John ]
+
+    ---------------------------------------------------
+
+    Deadlock : Deadlock is the situation, where no progress is going to be made. Suppose there are two threads T1 and T2 and Two resources R1 and R2, in this T1 uses R1 and needs R2 whereas T2 uses R2 and needs R1 so in this case no progress is going to be made in future.
